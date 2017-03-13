@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "$track-color": expected selector or at-rule, was ": #cecece !default"
+        on line 8 of /Users/juliangarcia/Desktop/input/style.scss
+
+3: // Styling Cross-Browser Compatible Range Inputs with Sass
+4: // Github: https://github.com/darlanrod/input-range-sass
+5: // Author: Darlan Rod https://github.com/darlanrod
+6: // Version 1.1.1
+7: // MIT License
+8: $track-color: #cecece !default
+9: $thumb-color: $main-color !default
+10: 
+11: $thumb-radius: 100% !default
+12: $thumb-height: 25px !default
+13: $thumb-width: 25px !default
+
+Backtrace:
+/Users/juliangarcia/Desktop/input/style.scss:8
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:43:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$track-color\": expected selector or at-rule, was \": #cecece !default\"\A         on line 8 of /Users/juliangarcia/Desktop/input/style.scss\A \A 3: // Styling Cross-Browser Compatible Range Inputs with Sass\A 4: // Github: https://github.com/darlanrod/input-range-sass\A 5: // Author: Darlan Rod https://github.com/darlanrod\A 6: // Version 1.1.1\A 7: // MIT License\A 8: $track-color: #cecece !default\A 9: $thumb-color: $main-color !default\A 10: \A 11: $thumb-radius: 100% !default\A 12: $thumb-height: 25px !default\A 13: $thumb-width: 25px !default"; }
